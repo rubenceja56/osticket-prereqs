@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-- Install https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD and unzip file into desktop.
+- Install osTicket software and unzip file into desktop.
 - Install / Enable IIS in Windows WITH CGI
 World Wide Web Services -> Application Development Features -> [X] CGI
 - Install PHP Manager, Rewrite Module, unzip PHP into directory, install VC_redist, and MySQL
