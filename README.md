@@ -80,3 +80,7 @@ The "Upload" folder is renamed to "osTicket". Must ensure it is spelled and capi
 ![osTicket installer success](https://github.com/user-attachments/assets/aefb13fe-675b-4c41-9e81-6f32d646989c)
 
 </p>
+
+<p>
+Now you're able to use the ticketing software within your virtual machine. 
+</p>
