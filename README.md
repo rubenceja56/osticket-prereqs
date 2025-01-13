@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,34 +18,59 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
+
+
+- Install https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD and unzip file into desktop.
+- Install / Enable IIS in Windows WITH CGI
+World Wide Web Services -> Application Development Features -> [X] CGI
+
+- Install PHP Manager, Rewrite Module, unzip PHP into directory, install VC_redist, and MySQL
 - Item 4
 - Item 5
 
 <h2>Installation Steps</h2>
 
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+![Installing osTicket](https://github.com/user-attachments/assets/09cdffbf-b945-4127-9a84-3ec8871b6138)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+For this ticket project we are using a osticket system. First we must download the zip file and then extract it.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+  ![IIS   CGI](https://github.com/user-attachments/assets/21ef0e3a-1666-48dd-9361-4333c89fa821)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we need to install IIS in Windows with CGI. We do this through control panel > Programs > "Turn Windows Features on or off" then click "ok"
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![Install PHP and rewrite](https://github.com/user-attachments/assets/c8937ec4-a6af-4b30-9c37-dc46b883ae51)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now, we install PHP Manager for IIS, install Rewrite Module. We also unzip PHP 7.3.8 into windows C-drive in a separate folder. Lastly install VC_redist and MySQL which will store all data on the backend such as users and tickets.
+</p>
+<br />
+
+
+<p>
+  
+![Install PHP and rewrite](https://github.com/user-attachments/assets/c8937ec4-a6af-4b30-9c37-dc46b883ae51)
+
+</p>
+<p>
+Now, we install PHP Manager for IIS, install Rewrite Module. We also unzip PHP 7.3.8 into windows C-drive in a separate folder. Lastly install VC_redist and MySQL which will store all data on the backend such as users and tickets.
 </p>
 <br />
