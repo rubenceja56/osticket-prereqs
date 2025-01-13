@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
@@ -18,8 +18,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-
-
 - Install osTicket software and unzip file into desktop.
 - Install / Enable IIS in Windows WITH CGI
 World Wide Web Services -> Application Development Features -> [X] CGI
@@ -38,7 +36,7 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 
 </p>
 <p>
-For this ticket project we are using a osticket system. First we must download the zip file and then extract it.
+For this ticket project we are using the "osTicket" system, it is an open source file system. We created a virtual machine that we remotely connected to. Inside there we download the osTicket files and we begin extracting them as well.
 </p>
 <br />
 
