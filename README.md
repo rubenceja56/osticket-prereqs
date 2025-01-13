@@ -23,10 +23,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD and unzip file into desktop.
 - Install / Enable IIS in Windows WITH CGI
 World Wide Web Services -> Application Development Features -> [X] CGI
-
 - Install PHP Manager, Rewrite Module, unzip PHP into directory, install VC_redist, and MySQL
-- Item 4
-- Item 5
+- Rename upload folder to "osTicket" and move it from extracted into inetpub > wwwroot
+- Add/disable any features you need within IIS, PHP manager.
 
 <h2>Installation Steps</h2>
 
@@ -65,12 +64,19 @@ Now, we install PHP Manager for IIS, install Rewrite Module. We also unzip PHP 7
 <br />
 
 
+
 <p>
   
-![Install PHP and rewrite](https://github.com/user-attachments/assets/c8937ec4-a6af-4b30-9c37-dc46b883ae51)
+![Rename upload to osTicket](https://github.com/user-attachments/assets/1b582ad5-2c07-42d6-a748-6daa4e36a60d)
 
 </p>
 <p>
-Now, we install PHP Manager for IIS, install Rewrite Module. We also unzip PHP 7.3.8 into windows C-drive in a separate folder. Lastly install VC_redist and MySQL which will store all data on the backend such as users and tickets.
+The "Upload" folder is renamed to "osTicket". Must ensure it is spelled and capitalized as is. Then move it over to the wwwroot folder inside of Windows (C:) > inetpub > wwwroot. This will enable a successful installation of osTicket. You may enable/disable features within IIS > Sites > Default Web Site > osTicket > "PHP Manager" > "Enable or disable an extension."
 </p>
 <br />
+
+<p>
+  
+![osTicket installer success](https://github.com/user-attachments/assets/aefb13fe-675b-4c41-9e81-6f32d646989c)
+
+</p>
